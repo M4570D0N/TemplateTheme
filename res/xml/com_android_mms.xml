@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2010, T-Mobile USA, Inc.
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resource-redirections>
+    <item name="mipmap/ic_launcher_smsmms">@drawable/ic_launcher_smsmms</item>
+    <item name="style/MmsHoloTheme">@style/Theme.Sample.Mms</item>
+    <item name="drawable/class_zero_background">@drawable/sampletheme_background</item>
+    <item name="drawable/ic_contact_picture">@drawable/ic_contact_picture</item>
+    <item name="color/read_bgcolor">@color/sampletheme_maincolor_reverted</item>
+    <item name="color/unread_bgcolor">@drawable/sampletheme_background_light</item>
+    <item name="color/message_count_color">@color/sampletheme_mms_messagecount</item>
+    <item name="drawable/listitem_background">@drawable/mms_background</item>
+    <item name="color/text_hairline">@drawable/sampletheme_background</item>
+    <item name="drawable/msg_bubble_left">@drawable/msg_bubble_left</item>
+    <item name="drawable/msg_bubble_right">@drawable/msg_bubble_right</item>
+</resource-redirections>

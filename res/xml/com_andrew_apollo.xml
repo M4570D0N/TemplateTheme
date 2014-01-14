@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2014, m4570d0n
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resource-redirections>
+    <item name="drawable/ic_launcher">@mipmap/com_andrew_apollo_ic_launcher</item>
+    <item name="drawable/action_bar">@drawable/com_andrew_apollo_action_bar</item>
+    <item name="drawable/bottom_action_bar">@drawable/com_andrew_apollo_bottom_action_bar</item>
+    <item name="drawable/audio_player_pager_container">@drawable/com_andrew_apollo_audio_player_pager_container</item>
+    <item name="drawable/pager_background">@drawable/com_andrew_apollo_pager_background</item>
+    <item name="drawable/tpi_background">@drawable/com_andrew_apollo_tpi_background</item>
+    <item name="drawable/appwidget_bg">@drawable/com_android_settings_appwidget_bg_holo</item>
+    <item name="drawable/bg_stripes_dark">@drawable/com_andrew_apollo_bg_stripes_dark</item>
+    <item name="drawable/btn_playback_next">@drawable/com_andrew_apollo_btn_playback_next</item>
+    <item name="drawable/btn_playback_pause">@drawable/com_andrew_apollo_btn_playback_pause</item>
+    <item name="drawable/btn_playback_play">@drawable/com_andrew_apollo_btn_playback_play</item>
+    <item name="drawable/btn_playback_previous">@drawable/com_andrew_apollo_btn_playback_previous</item>
+    <item name="drawable/btn_playback_repeat">@drawable/com_andrew_apollo_btn_playback_repeat</item>
+    <item name="drawable/btn_playback_repeat_all">@drawable/com_andrew_apollo_btn_playback_repeat_all</item>
+    <item name="drawable/btn_playback_repeat_one">@drawable/com_andrew_apollo_btn_playback_repeat_one</item>
+    <item name="drawable/btn_playback_search">@drawable/com_andrew_apollo_btn_playback_search</item>
+    <item name="drawable/btn_playback_shuffle_all">@drawable/com_andrew_apollo_btn_playback_shuffle_all</item>
+    <item name="drawable/btn_playback_shuffle">@drawable/com_andrew_apollo_btn_playback_shuffle</item>
+    <item name="drawable/tab_selected_holo">@drawable/com_andrew_apollo_tab_selected_holo</item>
+    <item name="drawable/tab_selected_pressed_focused_holo">@drawable/com_andrew_apollo_tab_selected__pressed_focused_holo</item>
+    <item name="drawable/tab_selected_pressed_holo">@drawable/com_andrew_apollo_tab_selected_pressed_holo</item>
+    <item name="drawable/tab_unselected_focused_holo">@drawable/com_andrew_apollo_tab_unselected_focused_holo</item>
+    <item name="drawable/tab_unselected_holo">@drawable/com_andrew_apollo_tab_unselected_holo</item>
+    <item name="drawable/tab_unselected_pressed_holo">@drawable/com_andrew_apollo_tab_unselected_pressed_holo</item>
+    <item name="drawable/view_pager_background_texture">@drawable/com_andrew_apollo_view_pager_background_texture</item>
+    <item name="drawable/stat_notify_music">@drawable/stat_notify_music_apollo</item>
+    <item name="style/Apollo.Theme.Dark">@style/com_andrew_apollo_Apollo.Theme.Dark</item>
+    <item name="style/Apollo.Theme.Light">@style/com_andrew_apollo_Apollo.Theme.Light</item>
+    <item name="color/transparent_black">@color/com_andrew_apollo_transparent_black</item>
+    <item name="color/action_bar">@color/com_andrew_apollo_action_bar</item>
+    <item name="color/bottom_action_bar">@color/com_andrew_apollo_bottom_action_bar</item>
+    <item name="color/action_bar_color">@color/com_andrew_apollo_action_bar_color</item>
+    <item name="color/list_item_background">@color/com_andrew_apollo_list_item_background</item>
+    <item name="color/vpi__background_holo_dark">@drawable/com_andrew_apollo_background_holo_dark</item>
+</resource-redirections>

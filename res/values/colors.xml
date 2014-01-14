@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sampletheme_maincolor">#ff33b5e5</color>
+    <color name="sampletheme_maincolor_dark">#ff0099cc</color>
+    <color name="sampletheme_maincolor_bright">#ff00ddff</color>
+    <color name="sampletheme_maincolor_reverted">#ff111133</color>
+    <color name="sampletheme_mms_messagecount">#7fa0a0a0</color>
+    <drawable name="sampletheme_background">#ff2e2e2e</drawable>
+    <drawable name="sampletheme_background_light">#ff444444</drawable>
+
+    <color name="com_andrew_apollo_transparent_black">#80000000</color>
+    <color name="com_andrew_apollo_list_item_background">#99000000</color>
+    <color name="com_andrew_apollo_action_bar">#40000000</color>
+    <color name="com_andrew_apollo_bottom_action_bar">#40000000</color>
+    <color name="com_andrew_apollo_action_bar_color">#40000000</color>
+
+    <!-- Dialer app -->
+    <!-- Secondary text color in the Phone app -->
+    <color name="com_android_dialer_dialtacts_primary_text_color">#000000</color>
+    <color name="com_android_dialer_dialtacts_secondary_text_color">#888888</color>
+    <color name="com_android_dialer_dialpad_text_color">#000000</color>
+
+    <!-- Color of the text describing an unconsumed missed call. -->
+    <color name="com_android_dialer_call_log_missed_call_highlight_color">#FF0000</color>
+    <!-- Color of the text describing an unconsumed voicemail. -->
+    <color name="com_android_dialer_call_log_voicemail_highlight_color">#33b5e5</color>
+    <!-- Colour of voicemail progress bar to the right of position indicator.
+         Same as the background color of the dialer -->
+    <color name="com_android_dialer_voicemail_playback_seek_bar_yet_to_play">#cecece</color>
+    <!-- Colour of voicemail progress bar to the left of position indicator. -->
+    <color name="com_android_dialer_voicemail_playback_seek_bar_already_played">#39c9ff</color>
+    <!-- Standard color for selected items. -->
+    <color name="com_android_dialer_item_selected">#660099cc</color>
+    <!-- Background color of new dialer activity -->
+    <color name="com_android_dialer_background_dialer_light">#cecece</color>
+    <!-- Background color of dialer list items (contacts, call log entries) -->
+    <color name="com_android_dialer_background_dialer_list_items">#eeeeee</color>
+    <!-- Background color where keypad digits are displayed -->
+    <color name="com_android_dialer_background_digits_dialpad">#ffffffff</color>
+    <!-- Background color of new dialpad -->
+    <color name="com_android_dialer_background_dialpad">#ffffffff</color>
+    <!-- Primary color of dialpad text, including the call button -->
+    <color name="com_android_dialer_dialpad_primary_text_color">#000000</color>
+    <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
+    <color name="com_android_dialer_dialpad_call_button_color">#888888</color>
+    <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
+    <color name="com_android_dialer_dialpad_secondary_text_color">#444444</color>
+    <!-- Background color of action bars -->
+    <color name="com_android_dialer_actionbar_background_color">#ffffff</color>
+    <!-- Color of the 1dp divider that separates favorites -->
+    <color name="com_android_dialer_favorite_contacts_separator_color">#d0d0d0</color>
+    <!-- Background color of the search box -->
+    <color name="com_android_dialer_searchbox_background_color">#ffffff</color>
+    <!-- Text color of the search box -->
+    <color name="com_android_dialer_searchbox_text_color">#d3d3d3</color>
+    <!-- Color of the contact name in favorite tiles -->
+    <color name="com_android_dialer_contact_tile_name_color">#f0f0f0</color>
+    <!-- Undo dialogue color -->
+    <color name="com_android_dialer_undo_dialogue_text_color">#4d4d4d</color>
+    <!-- Text color for no favorites message -->
+    <color name="com_android_dialer_nofavorite_text_color">#777777</color>
+    <!-- Colors for incoming and outgoing calls in the call statistics -->
+    <color name="com_android_dialer_call_stats_incoming">#33b5e5</color>
+    <color name="com_android_dialer_call_stats_outgoing">#99cc00</color>
+    <color name="com_android_dialer_call_stats_missed">#eb1313</color>
+    <color name="com_android_dialer_call_stats_bar_background">#88888888</color>
+    <!-- New Colors for Theme Chooser to be compatible -->
+    <color name="com_android_dialer_call_detail_photo_bg">#7f000000</color>
+    <color name="com_android_dialer_call_log_divider">#55ffffff</color>
+    <color name="com_android_dialer_call_log_primary_text_color">#000000</color>
+    <color name="com_android_dialer_call_log_primary_background_color">#000000</color>
+    <color name="com_android_dialer_call_log_secondary_text_color">#888888</color>
+    <color name="com_android_dialer_call_log_secondary_background_color">#333333</color>
+    <color name="com_android_dialer_call_log_header_color">#33b5e5</color>
+    <color name="com_android_dialer_call_log_voicemail_status_background_color">#262626</color>
+    <color name="com_android_dialer_call_log_voicemail_status_text_color">#888888</color>
+    <color name="com_android_dialer_call_log_voicemail_status_action_text_color">#33b5e5</color>
+    <color name="com_android_dialer_dialtacts_frame_color">#33999999</color>
+
+    <!-- Contacts app -->
+
+    <!-- Divider color for header separator -->
+    <color name="com_android_contacts_primary_text_color">#363636</color>
+    <!-- Divider color for header separator -->
+    <color name="com_android_contacts_secondary_text_color">#888888</color>
+    <!-- Divider color for header separator -->
+    <color name="com_android_contacts_main_header_separator_color">#AAAAAA</color>
+    <!-- Divider color for header separator -->
+    <color name="com_android_contacts_secondary_header_separator_color">#D0D0D0</color>
+    <!-- Color of the theme of the People app -->
+    <color name="com_android_contacts_people_app_theme_color">#363636</color>
+    <!-- Color of image view placeholder. -->
+    <color name="com_android_contacts_image_placeholder">#DDDDDD</color>
+    <!--  Color of the semi-transparent shadow box on contact tiles -->
+    <color name="com_android_contacts_contact_tile_shadow_box_color">#7F000000</color>
+    <!--  Color of the status message for starred contacts in the People app -->
+    <color name="com_android_contacts_people_contact_tile_status_color">#CCCCCC</color>
+    <color name="com_android_contacts_shortcut_overlay_text_background">#7f000000</color>
+    <color name="com_android_contacts_textColorIconOverlay">#fff</color>
+    <color name="com_android_contacts_textColorIconOverlayShadow">#000</color>
+
+    <!-- New Colors for Theme Chooser to be compatible -->
+    <color name="com_android_contacts_contact_tile_name_text">#ffffffff</color>
+
+    <color name="com_android_contacts_quickcontact_list_divider">#ffcdcdcd</color>
+    <color name="com_android_contacts_quickcontact_list_background">#ffe2e2e2</color>
+    <color name="com_android_contacts_quickcontact_tab_indicator">#ffc6c6c6</color>
+    <color name="com_android_contacts_quickcontact_track_background">#fff5f5f5</color>
+    <color name="com_android_contacts_quickcontact_activity_background">#fff5f5f5</color>
+    <color name="com_android_contacts_quickcontact_name_detail_background">#66000000</color>
+
+    <!-- Color of the background of the contact detail and editor pages -->
+    <color name="com_android_contacts_background_primary">#f5f5f5</color>
+    <color name="com_android_contacts_background_social_updates">#ffeeeeee</color>
+    <!-- Color used for the letter in the A-Z section header -->
+    <color name="com_android_contacts_section_header_text_color">#363636</color>
+    <!-- Color of the text in the updates tab in the tab carousel on the contact detail page -->
+    <color name="com_android_contacts_detail_update_tab_text_color">#777777</color>
+    <!-- Color of the text of the tab carousel in the contact details  -->
+    <color name="com_android_contacts_detail_tab_carousel_tab_label_color">#EEEEEE</color>
+    <!-- Color of the background of the action bar -->
+    <color name="com_android_contacts_action_bar_background">#e6e6e6</color>
+    <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
+    <color name="com_android_contacts_action_bar_background_highlight">#cecece</color>
+    <!-- Color of the text for buttons in the action bar  -->
+    <color name="com_android_contacts_action_bar_button_text_color">#FFFFFF</color>
+    <!--  Color of the vertical stripe that goes on the left of a block quote inside a stream item -->
+    <color name="com_android_contacts_stream_item_stripe_color">#CCCCCC</color>
+    <!-- Background color from layout  -->
+    <color name="com_android_contacts_editor_account_header_bg">#EEEEEE</color>
+    <!-- New Colors for Theme Chooser to be compatible -->
+    <color name="com_android_contacts_account_container">#eeeeee</color>
+    <color name="com_android_contacts_call_detail_photo_bg">#7f000000</color>
+    <color name="com_android_contacts_call_log_divider">#55ffffff</color>
+    <color name="com_android_contacts_detail_tab_carousel_tab_label_background_color">#7f000000</color>
+    <color name="com_android_contacts_photo_backdrop">#000000</color>
+    <color name="com_android_contacts_photo_container">#4cffffff</color>
+    <color name="com_android_contacts_social_widget_bg">#00000000</color>
+    <color name="com_android_contacts_white_text">#ffffffff</color>
+
+    <!-- Settings screen should use the same colors as the Dialer -->
+    <color name="com_android_phone_phone_settings_background_color">#f5f5f5</color>
+    <color name="com_android_phone_phone_settings_actionbar_color">#e6e6e6</color>
+
+
+    <color name="com_android_systemui_batterymeter_frame_color">#66FFFFFF</color><!-- 40% white -->
+    <color name="com_android_systemui_batterymeter_charge_color">#FFFFFFFF</color>
+    <color name="com_android_systemui_batterymeter_bolt_color">#B2000000</color><!-- 70% black -->
+    <color name="com_android_systemui_batterymeter_critical">#FFFF3300</color>
+    <color name="com_android_systemui_batterymeter_low">#FFFF3300</color>
+    <color name="com_android_systemui_batterymeter_full">#FFFFFFFF</color>
+    <color name="com_android_systemui_status_bar_clock_color">#FFFFFFFF</color>
+
+</resources>
+

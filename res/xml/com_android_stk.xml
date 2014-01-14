@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource-redirections>
+    <item name="drawable/ic_launcher_sim_toolkit">@mipmap/com_android_stk_ic_launcher_sim_toolkit</item>
+</resource-redirections>

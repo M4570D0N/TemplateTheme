@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource-redirections>
+    <item name="mipmap/ic_launcher_download">@mipmap/com_android_providers_downloads_ic_launcher_download</item>
+</resource-redirections>

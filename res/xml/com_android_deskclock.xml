@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource-redirections>
+    <item name="mipmap/ic_launcher_alarmclock">@mipmap/com_android_deskclock_ic_launcher_alarmclock</item>
+    <item name="drawable/appwidget_clock_dial">@drawable/clock_appwidget_bg</item>
+</resource-redirections>

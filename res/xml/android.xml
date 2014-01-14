@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # Copyright (C) 2012, The CyanogenMod Project
+ #
+ # Licensed under the Apache License, Version 2.0 (the "License");
+ # you may not use this file except in compliance with the License.
+ # You may obtain a copy of the License at
+ #
+ #      http://www.apache.org/licenses/LICENSE-2.0
+ #
+ # Unless required by applicable law or agreed to in writing, software
+ # distributed under the License is distributed on an "AS IS" BASIS,
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ -->
+
+<resource-redirections>
+    <!-- Overload older layouts here -->
+    <item name="drawable/list_selector_background_focus">@drawable/frameworks_res_list_focused_holo</item>
+    <item name="drawable/list_selector_background_longpress">@drawable/frameworks_res_list_longpressed_holo</item>
+    <item name="drawable/list_selector_background_pressed">@drawable/frameworks_res_list_pressed_holo_dark</item>
+    <item name="drawable/tab_indicator">@android:drawable/tab_indicator_holo</item>
+    <!-- End of non-holo stuffs -->
+    <item name="style/Theme.Holo.Light">@style/Theme.Sample.Light</item>
+    <item name="style/Theme.Holo">@style/Theme.Sample</item>
+
+    <item name="style/Theme.Holo.Light.Dialog.Alert">android:style/Theme.Holo.Dialog.Alert</item>
+    <item name="style/AlertDialog.Holo.Light">android:style/AlertDialog.Holo</item>
+
+    <item name="drawable/button_onoff_indicator_on">@drawable/frameworks_res_button_onoff_indicator_on</item>
+    <item name="drawable/star_on">@drawable/frameworks_res_star_on</item>
+    <item name="drawable/star_off">@drawable/frameworks_res_star_off</item>
+    <item name="drawable/star_big_on">@drawable/frameworks_res_star_big_on</item>
+    <item name="drawable/star_big_off">@drawable/frameworks_res_star_big_off</item>
+    <item name="drawable/rate_star_small_off">@drawable/frameworks_res_rate_star_small_off</item>
+    <item name="drawable/rate_star_med_on">@drawable/frameworks_res_rate_star_med_on</item>
+    <item name="drawable/rate_star_med_half">@drawable/frameworks_res_rate_star_med_half</item>
+    <item name="drawable/rate_star_med_off">@drawable/frameworks_res_rate_star_med_off</item>
+    <item name="drawable/rate_star_big_on">@drawable/frameworks_res_rate_star_big_on</item>
+    <item name="drawable/rate_star_big_half">@drawable/frameworks_res_rate_star_big_half</item>
+    <item name="drawable/star_big_off">@drawable/frameworks_res_rate_star_big_off</item>
+    <item name="drawable/pressed_application_background_static">@drawable/frameworks_res_pressed_application_background</item>
+    <item name="drawable/focused_application_background_static">@drawable/frameworks_res_focused_application_background</item>
+    <item name="drawable/seek_thumb_pressed">@drawable/frameworks_res_seek_thumb_pressed</item>
+    <item name="drawable/seek_thumb_selected">@drawable/frameworks_res_seek_thumb_selected</item>
+    <item name="drawable/seek_thumb_normal">@drawable/frameworks_res_seek_thumb_normal</item>
+    <item name="drawable/spinner_press">@drawable/frameworks_res_spinner_press</item>
+    <item name="drawable/spinner_select">@drawable/frameworks_res_spinner_select</item>
+    <item name="drawable/text_select_handle_left">@drawable/frameworks_res_text_select_handle_left</item>
+    <item name="drawable/text_select_handle_middle">@drawable/frameworks_res_text_select_handle_middle</item>
+    <item name="drawable/text_select_handle_right">@drawable/frameworks_res_text_select_handle_right</item>
+    <item name="drawable/editbox_background_focus_yellow">@drawable/frameworks_res_editbox_background_focus_yellow</item>
+    <item name="drawable/icon_highlight_rectangle">@drawable/frameworks_res_icon_highlight_rectangle</item>
+    <item name="drawable/icon_highlight_square">@drawable/frameworks_res_icon_highlight_square</item>
+    <item name="drawable/overscroll_edge">@drawable/frameworks_res_overscroll_edge</item>
+    <item name="drawable/overscroll_glow">@drawable/frameworks_res_overscroll_glow</item>
+    <item name="drawable/status_bar_item_background_focus">@drawable/frameworks_res_status_bar_item_background_focus</item>
+    <item name="drawable/status_bar_item_background_pressed">@drawable/frameworks_res_status_bar_item_background_pressed</item>
+    <item name="drawable/expander_ic_maximized">@drawable/frameworks_res_expander_ic_maximized</item>
+    <item name="drawable/expander_ic_minimized">@drawable/frameworks_res_expander_ic_minimized</item>
+    <item name="drawable/editbox_background_focus_yellow">@drawable/frameworks_res_editbox_background_focus_yellow</item>
+    <item name="color/holo_blue_light">@color/sampletheme_maincolor</item>
+    <item name="color/holo_blue_dark">@color/sampletheme_maincolor_dark</item>
+    <item name="color/holo_blue_bright">@color/sampletheme_maincolor_bright</item>
+    <item name="drawable/btn_cab_done_pressed_holo_dark">@drawable/frameworks_res_btn_cab_done_pressed_holo_dark</item>
+    <item name="drawable/btn_cab_done_pressed_holo_light">@drawable/frameworks_res_btn_cab_done_pressed_holo_light</item>
+    <item name="drawable/btn_check_off_disabled_focused_holo_dark">@drawable/frameworks_res_btn_check_off_disabled_focused_holo_dark</item>
+    <item name="drawable/btn_check_off_disabled_focused_holo_light">@drawable/frameworks_res_btn_check_off_disabled_focused_holo_light</item>
+    <item name="drawable/btn_check_off_focused_holo_dark">@drawable/frameworks_res_btn_check_off_focused_holo_dark</item>
+    <item name="drawable/btn_check_off_focused_holo_light">@drawable/frameworks_res_btn_check_off_focused_holo_light</item>
+    <item name="drawable/btn_check_off_pressed_holo_dark">@drawable/frameworks_res_btn_check_off_pressed_holo_dark</item>
+    <item name="drawable/btn_check_off_pressed_holo_light">@drawable/frameworks_res_btn_check_off_pressed_holo_light</item>
+    <item name="drawable/btn_check_on_disabled_focused_holo_dark">@drawable/frameworks_res_btn_check_on_disabled_focused_holo_dark</item>
+    <item name="drawable/btn_check_on_disabled_focused_holo_light">@drawable/frameworks_res_btn_check_on_disabled_focused_holo_light</item>
+    <item name="drawable/btn_check_on_focused_holo_dark">@drawable/frameworks_res_btn_check_on_focused_holo_dark</item>
+    <item name="drawable/btn_check_on_focused_holo_light">@drawable/frameworks_res_btn_check_on_focused_holo_light</item>
+    <item name="drawable/btn_check_on_holo_dark">@drawable/frameworks_res_btn_check_on_holo_dark</item>
+    <item name="drawable/btn_check_on_holo_light">@drawable/frameworks_res_btn_check_on_holo_light</item>
+    <item name="drawable/btn_check_on_pressed_holo_dark">@drawable/frameworks_res_btn_check_on_pressed_holo_dark</item>
+    <item name="drawable/btn_check_on_pressed_holo_light">@drawable/frameworks_res_btn_check_on_pressed_holo_light</item>
+    <item name="drawable/btn_default_disabled_focused_holo_dark">@drawable/frameworks_res_btn_default_disabled_focused_holo_dark</item>
+    <item name="drawable/btn_default_disabled_focused_holo_light">@drawable/frameworks_res_btn_default_disabled_focused_holo_light</item>
+    <item name="drawable/btn_default_focused_holo_dark">@drawable/frameworks_res_btn_default_focused_holo_dark</item>
+    <item name="drawable/btn_default_focused_holo_light">@drawable/frameworks_res_btn_default_focused_holo_light</item>
+    <item name="drawable/btn_default_pressed_holo_dark">@drawable/frameworks_res_btn_default_pressed_holo_dark</item>
+    <item name="drawable/btn_default_pressed_holo_light">@drawable/frameworks_res_btn_default_pressed_holo_light</item>
+    <item name="drawable/btn_radio_off_disabled_focused_holo_dark">@drawable/frameworks_res_btn_radio_off_disabled_focused_holo_dark</item>
+    <item name="drawable/btn_radio_off_disabled_focused_holo_light">@drawable/frameworks_res_btn_radio_off_disabled_focused_holo_light</item>
+    <item name="drawable/btn_radio_off_focused_holo_dark">@drawable/frameworks_res_btn_radio_off_focused_holo_dark</item>
+    <item name="drawable/btn_radio_off_focused_holo_light">@drawable/frameworks_res_btn_radio_off_focused_holo_light</item>
+    <item name="drawable/btn_radio_off_pressed_holo_dark">@drawable/frameworks_res_btn_radio_off_pressed_holo_dark</item>
+    <item name="drawable/btn_radio_off_pressed_holo_light">@drawable/frameworks_res_btn_radio_off_pressed_holo_light</item>
+    <item name="drawable/btn_radio_on_disabled_focused_holo_dark">@drawable/frameworks_res_btn_radio_on_disabled_focused_holo_dark</item>
+    <item name="drawable/btn_radio_on_disabled_focused_holo_light">@drawable/frameworks_res_btn_radio_on_disabled_focused_holo_light</item>
+    <item name="drawable/btn_radio_on_focused_holo_dark">@drawable/frameworks_res_btn_radio_on_focused_holo_dark</item>
+    <item name="drawable/btn_radio_on_focused_holo_light">@drawable/frameworks_res_btn_radio_on_focused_holo_light</item>
+    <item name="drawable/btn_radio_on_holo_dark">@drawable/frameworks_res_btn_radio_on_holo_dark</item>
+    <item name="drawable/btn_radio_on_holo_light">@drawable/frameworks_res_btn_radio_on_holo_light</item>
+    <item name="drawable/btn_radio_on_pressed_holo_dark">@drawable/frameworks_res_btn_radio_on_pressed_holo_dark</item>
+    <item name="drawable/btn_radio_on_pressed_holo_light">@drawable/frameworks_res_btn_radio_on_pressed_holo_light</item>
+    <item name="drawable/cab_background_bottom_holo_dark">@drawable/frameworks_res_cab_background_bottom_holo_dark</item>
+    <item name="drawable/cab_background_bottom_holo_light">@drawable/frameworks_res_cab_background_bottom_holo_light</item>
+    <item name="drawable/cab_background_top_holo_dark">@drawable/frameworks_res_cab_background_top_holo_dark</item>
+    <item name="drawable/cab_background_top_holo_light">@drawable/frameworks_res_cab_background_top_holo_light</item>
+    <item name="drawable/list_activated_holo">@drawable/frameworks_res_list_activated_holo</item>
+    <item name="drawable/list_focused_holo">@drawable/frameworks_res_list_focused_holo</item>
+    <item name="drawable/list_longpressed_holo">@drawable/frameworks_res_list_longpressed_holo</item>
+    <item name="drawable/list_pressed_holo_dark">@drawable/frameworks_res_list_pressed_holo_dark</item>
+    <item name="drawable/list_pressed_holo_light">@drawable/frameworks_res_list_pressed_holo_light</item>
+    <item name="drawable/list_selected_holo_dark">@drawable/frameworks_res_list_selected_holo_dark</item>
+    <item name="drawable/list_selected_holo_light">@drawable/frameworks_res_list_selected_holo_light</item>
+    <item name="drawable/list_selector_activated_holo_dark">@drawable/frameworks_res_list_selector_activated_holo_dark</item>
+    <item name="drawable/list_selector_activated_holo_light">@drawable/frameworks_res_list_selector_activated_holo_light</item>
+    <item name="drawable/numberpicker_down_disabled_holo_dark">@drawable/frameworks_res_numberpicker_down_disabled_holo_dark</item>
+    <item name="drawable/numberpicker_up_disabled_holo_dark">@drawable/frameworks_res_numberpicker_up_disabled_holo_dark</item>
+    <item name="drawable/numberpicker_down_focused_holo_dark">@drawable/frameworks_res_numberpicker_down_focused_holo_dark</item>
+    <item name="drawable/numberpicker_up_focused_holo_dark">@drawable/frameworks_res_numberpicker_up_focused_holo_dark</item>
+    <item name="drawable/numberpicker_down_longpressed_holo_dark">@drawable/frameworks_res_numberpicker_down_longpressed_holo_dark</item>
+    <item name="drawable/numberpicker_up_longpressed_holo_dark">@drawable/frameworks_res_numberpicker_up_longpressed_holo_dark</item>
+    <item name="drawable/numberpicker_down_longpressed_holo_light">@drawable/frameworks_res_numberpicker_down_longpressed_holo_light</item>
+    <item name="drawable/numberpicker_up_longpressed_holo_light">@drawable/frameworks_res_numberpicker_up_longpressed_holo_light</item>
+    <item name="drawable/numberpicker_down_pressed_holo_dark">@drawable/frameworks_res_numberpicker_down_pressed_holo_dark</item>
+    <item name="drawable/numberpicker_up_pressed_holo_dark">@drawable/frameworks_res_numberpicker_up_pressed_holo_dark</item>
+    <item name="drawable/numberpicker_down_pressed_holo_light">@drawable/frameworks_res_numberpicker_down_pressed_holo_light</item>
+    <item name="drawable/numberpicker_up_pressed_holo_light">@drawable/frameworks_res_numberpicker_up_pressed_holo_light</item>
+    <item name="drawable/progressbar_indeterminate_holo1">@drawable/frameworks_res_progressbar_indeterminate_holo1</item>
+    <item name="drawable/progressbar_indeterminate_holo2">@drawable/frameworks_res_progressbar_indeterminate_holo2</item>
+    <item name="drawable/progressbar_indeterminate_holo3">@drawable/frameworks_res_progressbar_indeterminate_holo3</item>
+    <item name="drawable/progressbar_indeterminate_holo4">@drawable/frameworks_res_progressbar_indeterminate_holo4</item>
+    <item name="drawable/progressbar_indeterminate_holo5">@drawable/frameworks_res_progressbar_indeterminate_holo5</item>
+    <item name="drawable/progressbar_indeterminate_holo6">@drawable/frameworks_res_progressbar_indeterminate_holo6</item>
+    <item name="drawable/progressbar_indeterminate_holo7">@drawable/frameworks_res_progressbar_indeterminate_holo7</item>
+    <item name="drawable/progressbar_indeterminate_holo8">@drawable/frameworks_res_progressbar_indeterminate_holo8</item>
+    <item name="drawable/progress_primary_holo_light">@drawable/frameworks_res_progress_primary_holo_light</item>
+    <item name="drawable/progress_primary_holo_dark">@drawable/frameworks_res_progress_primary_holo_dark</item>
+    <item name="drawable/progress_secondary_holo_light">@drawable/frameworks_res_progress_secondary_holo_light</item>
+    <item name="drawable/progress_secondary_holo_dark">@drawable/frameworks_res_progress_secondary_holo_dark</item>
+    <item name="drawable/switch_bg_focused_holo_dark">@drawable/frameworks_res_switch_bg_focused_holo_dark</item>
+    <item name="drawable/switch_bg_focused_holo_light">@drawable/frameworks_res_switch_bg_focused_holo_light</item>
+    <item name="drawable/textfield_activated_holo_dark">@drawable/frameworks_res_textfield_activated_holo_dark</item>
+    <item name="drawable/textfield_activated_holo_light">@drawable/frameworks_res_textfield_activated_holo_light</item>
+    <item name="drawable/textfield_focused_holo_dark">@drawable/frameworks_res_textfield_focused_holo_dark</item>
+    <item name="drawable/textfield_focused_holo_light">@drawable/frameworks_res_textfield_focused_holo_light</item>
+    <item name="drawable/ab_transparent_light_holo">@drawable/frameworks_res_ab_transparent_light_holo</item>
+    <item name="drawable/ab_transparent_dark_holo">@drawable/frameworks_res_ab_transparent_dark_holo</item>
+    <item name="drawable/tab_bottom_holo">@drawable/frameworks_res_tab_bottom_holo</item>
+    <item name="drawable/tab_selected_pressed_holo">@drawable/frameworks_res_tab_selected_pressed_holo</item>
+    <item name="drawable/tab_pressed_holo">@drawable/frameworks_res_tab_pressed_holo</item>
+    <item name="drawable/tab_unselected_focused_holo">@drawable/frameworks_res_tab_unselected_focused_holo</item>
+    <item name="drawable/tab_selected_focused_holo">@drawable/frameworks_res_tab_selected_focused_holo</item>
+    <item name="drawable/tab_unselected_holo">@drawable/frameworks_res_tab_unselected_holo</item>
+    <item name="drawable/tab_selected_holo">@drawable/frameworks_res_tab_selected_holo</item>
+    <item name="drawable/tab_unselected_pressed_holo">@drawable/frameworks_res_tab_unselected_pressed_holo</item>
+    <item name="drawable/switch_thumb_activated_holo_dark">@drawable/frameworks_res_switch_thumb_activated_holo_dark</item>
+    <item name="drawable/switch_thumb_activated_holo_light">@drawable/frameworks_res_switch_thumb_activated_holo_light</item>
+    <item name="drawable/switch_thumb_pressed_holo_dark">@drawable/frameworks_res_switch_thumb_pressed_holo_dark</item>
+    <item name="drawable/switch_thumb_pressed_holo_light">@drawable/frameworks_res_switch_thumb_pressed_holo_light</item>
+    <item name="drawable/fastscroll_thumb_default_holo">@drawable/frameworks_res_fastscroll_thumb_default_holo</item>
+    <item name="drawable/fastscroll_thumb_pressed_holo">@drawable/frameworks_res_fastscroll_thumb_pressed_holo</item>
+    <item name="drawable/textfield_longpress_holo">@drawable/frameworks_res_textfield_longpress_holo</item>
+    <item name="drawable/textfield_multiline_activated_holo_dark">@drawable/frameworks_res_textfield_multiline_activated_holo_dark</item>
+    <item name="drawable/textfield_multiline_activated_holo_light">@drawable/frameworks_res_textfield_multiline_activated_holo_light</item>
+    <item name="drawable/textfield_multiline_focused_holo_dark">@drawable/frameworks_res_textfield_multiline_focused_holo_dark</item>
+    <item name="drawable/textfield_multiline_focused_holo_light">@drawable/frameworks_res_textfield_multiline_focused_holo_light</item>
+    <item name="drawable/textfield_search_right_selected_holo_dark">@drawable/frameworks_res_textfield_search_right_selected_holo_dark</item>
+    <item name="drawable/textfield_search_right_selected_holo_light">@drawable/frameworks_res_textfield_search_right_selected_holo_light</item>
+    <item name="drawable/textfield_search_selected_holo_dark">@drawable/frameworks_res_textfield_search_selected_holo_dark</item>
+    <item name="drawable/textfield_search_selected_holo_light">@drawable/frameworks_res_textfield_search_selected_holo_light</item>
+    <item name="drawable/scrubber_secondary_holo">@drawable/frameworks_res_scrubber_secondary_holo</item> 
+    <item name="drawable/scrubber_primary_holo">@drawable/frameworks_res_scrubber_primary_holo</item> 
+    <item name="drawable/scrubber_control_disabled_holo">@drawable/frameworks_res_scrubber_control_disabled_holo</item> 
+    <item name="drawable/scrubber_control_normal_holo">@drawable/frameworks_res_scrubber_control_normal_holo</item> 
+    <item name="drawable/scrubber_control_focused_holo">@drawable/frameworks_res_scrubber_control_focused_holo</item> 
+    <item name="drawable/scrubber_control_pressed_holo">@drawable/frameworks_res_scrubber_control_pressed_holo</item> 
+    <item name="drawable/scrubber_progress_horizontal_holo_dark">@drawable/scrubber_progress_horizontal_holo_dark</item> 
+    <item name="drawable/scrubber_progress_horizontal_holo_light">@drawable/scrubber_progress_horizontal_holo_light</item> 
+    <item name="drawable/progress_horizontal_holo_dark">@drawable/progress_horizontal_holo_dark</item> 
+    <item name="drawable/progress_horizontal_holo_light">@drawable/progress_horizontal_holo_light</item> 
+    <item name="color/highlighted_text_holo_dark">@color/sampletheme_maincolor_bright</item>
+    <item name="color/highlighted_text_holo_light">@color/sampletheme_maincolor_bright</item>
+
+    <item name="drawable/stat_sys_kb_battery_100">@drawable/frameworks_res_stat_sys_kb_battery_100</item>
+    <item name="drawable/stat_sys_kb_battery_28">@drawable/frameworks_res_stat_sys_kb_battery_28</item>
+    <item name="drawable/stat_sys_kb_battery_43">@drawable/frameworks_res_stat_sys_kb_battery_43</item>
+    <item name="drawable/stat_sys_kb_battery_57">@drawable/frameworks_res_stat_sys_kb_battery_57</item>
+    <item name="drawable/stat_sys_kb_battery_71">@drawable/frameworks_res_stat_sys_kb_battery_71</item>
+    <item name="drawable/stat_sys_kb_battery_85">@drawable/frameworks_res_stat_sys_kb_battery_85</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim100">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim100</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim15">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim15</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim28">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim28</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim43">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim43</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim57">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim57</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim71">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim71</item>
+    <item name="drawable/stat_sys_kb_battery_charge_anim85">@drawable/frameworks_res_stat_sys_kb_battery_charge_anim85</item>
+    <!-- These affect the ActionBar
+    <item name="drawable/action_bar_background">@color/sampletheme_maincolor_reverted</item>
+    <item name="drawable/action_bar_divider">@color/sampletheme_maincolor_reverted</item>
+    <item name="drawable/ab_transparent_dark_holo">@color/sampletheme_maincolor_reverted</item-->
+    <!-- And this one the generic gradient background
+    <item name="drawable/screen_background_selector_dark">@drawable/screen_background_selector</item-->
+    <item name="drawable/notify_panel_notification_icon_bg_tile">@drawable/sampletheme_background_light</item>
+    <item name="drawable/notify_panel_notification_icon_bg">@drawable/notify_panel_notification_icon_bg</item>
+    <item name="drawable/ic_sysbar_quicksettings">@drawable/com_android_systemui_ic_notify_quicksettings_normal</item>
+</resource-redirections>
