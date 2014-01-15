@@ -117,9 +117,9 @@
     </style>
 
     <style name="ContactsActionBarStyle" parent="@android:Widget.Holo.Light.ActionBar">
-        <item name="android:background">@drawable/com_android_dialer_action_bar_tab</item>
-        <item name="android:backgroundSplit">@drawable/com_android_dialer_action_bar_tab</item>
-        <item name="android:backgroundStacked">@drawable/com_android_dialer_action_bar_tab</item>
+        <item name="android:background">@drawable/com_android_contacts_action_bar_tab</item>
+        <item name="android:backgroundSplit">@drawable/com_android_contacts_action_bar_tab</item>
+        <item name="android:backgroundStacked">@drawable/com_android_contacts_action_bar_tab</item>
         <item name="android:displayOptions"></item>
     </style>
 
@@ -135,7 +135,7 @@
     </style>
 
     <style name="ContactsActionBarTabView" parent="@android:style/Widget.Holo.ActionBar.TabView">
-        <item name="android:background">@drawable/com_android_dialer_action_bar_tab</item>
+        <item name="android:background">@drawable/com_android_contacts_action_bar_tab</item>
     </style>
 
     <style name="ContactsPreferencesTheme" parent="@android:Theme.Holo.Light">

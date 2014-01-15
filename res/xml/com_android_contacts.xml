@@ -22,6 +22,7 @@
     <item name="drawable/ab_dropdown_navigation_item_background">@drawable/com_android_contacts_ab_dropdown_navigation_item_background_pressed</item>
     <item name="drawable/ab_dropdown_navigation_item_background_focused">@drawable/com_android_contacts_ab_dropdown_navigation_item_background_focused</item>
     <item name="drawable/ab_dropdown_navigation_item_background_pressed">@drawable/com_android_contacts_ab_dropdown_navigation_item_background_pressed</item>
+    <item name="drawable/action_bar_tab">@drawable/com_android_contacts_action_bar_tab</item> 
     <item name="drawable/gray_action_bar_background">@drawable/com_android_contacts_com_android_contacts_gray_action_bar_background</item>
     <item name="drawable/group_list_item_background">@drawable/com_android_contacts_group_list_item_background</item>
     <item name="drawable/list_divider">@drawable/com_android_contacts_list_divider</item>
@@ -29,6 +30,11 @@
     <item name="drawable/list_selector_background_transition_holo_light">@drawable/com_android_contacts_list_selector_background_transition_holo_light</item>
     <item name="drawable/quickcontact_list_item_divider">@drawable/com_android_contacts_quickcontact_list_item_divider</item>
     <item name="drawable/quickcontact_track_background">@drawable/com_android_contacts_quickcontact_track_background</item>
+    <item name="drawable/tab_selected">@drawable/com_android_contacts_tab_selected</item>
+    <item name="drawable/tab_selected_focused">@drawable/com_android_contacts_tab_selected_focused</item>
+    <item name="drawable/tab_selected_pressed">@drawable/com_android_contacts_tab_selected_pressed</item>
+    <item name="drawable/tab_unselected_focused">@drawable/com_android_contacts_tab_selected_focused</item>
+    <item name="drawable/tab_unselected_pressed">@drawable/com_android_contacts_tab_selected_pressed</item>
 
     <item name="drawable/ab_solid_custom_blue_inverse_holo">@drawable/com_android_contacts_ab_solid_custom_blue_inverse_holo</item>
     <item name="drawable/ab_stacked_solid_inverse_holo">@drawable/com_android_contacts_ab_stacked_solid_inverse_holo</item>
