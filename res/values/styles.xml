@@ -244,6 +244,7 @@
         <item name="android:textColor">#888888</item>
     </style>
 
+    <!--Phone Settings-->
     <style name="SettingsLight" parent="@android:style/Theme.Holo.Light">
         <item name="android:windowBackground">@color/com_android_phone_phone_settings_background_color</item>
         <item name="android:actionBarStyle">@style/phone.DialtactsActionBarStyle</item>
@@ -251,5 +252,17 @@
     <style name="phone.DialtactsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@color/com_android_phone_phone_settings_actionbar_color</item>
         <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <!--DocumentsUI-->
+    <style name="DocumentsUI.Theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionOverflowButtonStyle">@style/DocumentsUI.DarkerOverflow</item>
+    </style>
+    
+    <style name="DocumentsUI.DarkerOverflow" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+    <style name="DocumentsUI.SettingsTheme" parent="@android:style/Theme.Holo.Light.DialogWhenLarge">
     </style>
 </resources>
