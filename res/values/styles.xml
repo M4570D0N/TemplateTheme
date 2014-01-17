@@ -260,7 +260,7 @@
     </style>
     
     <style name="DocumentsUI.DarkerOverflow" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
-        <item name="android:src">@drawable/ic_menu_overflow</item>
+        <item name="android:src">@drawable/com_android_documentsui_ic_menu_overflow</item>
     </style>
 
     <style name="DocumentsUI.SettingsTheme" parent="@android:style/Theme.Holo.Light.DialogWhenLarge">

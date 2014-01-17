@@ -8,11 +8,11 @@
     <item name="drawable/contact_list_item_background">@drawable/com_android_dialer_contact_list_item_background</item>
     <item name="drawable/list_item_activated_background">@drawable/com_android_contacts_list_item_activated_background</item>
     <item name="drawable/list_selector_background_transition_holo_light">@drawable/com_android_contacts_list_selector_background_transition_holo_light</item>
-    <item name="drawable/tab_selected">@drawable/com_android_dialer_tab_selected</item> 
-    <item name="drawable/tab_selected_focused">@drawable/com_android_dialer_tab_selected_focused</item> 
-    <item name="drawable/tab_selected_pressed">@drawable/com_android_dialer_tab_selected_pressed</item> 
-    <item name="drawable/tab_unselected_focused">@drawable/com_android_dialer_tab_selected_focused</item> 
-    <item name="drawable/tab_unselected_pressed">@drawable/com_android_dialer_tab_selected_pressed</item> 
+    <item name="drawable/tab_selected">@drawable/com_android_dialer_tab_selected</item>
+    <item name="drawable/tab_selected_focused">@drawable/com_android_dialer_tab_selected_focused</item>
+    <item name="drawable/tab_selected_pressed">@drawable/com_android_dialer_tab_selected_pressed</item>
+    <item name="drawable/tab_unselected_focused">@drawable/com_android_dialer_tab_unselected_focused</item>
+    <item name="drawable/tab_unselected_pressed">@drawable/com_android_dialer_tab_unselected_pressed</item>
 
     <item name="drawable/ab_stacked_opaque_dark_holo">@drawable/com_android_dialer_ab_stacked_opaque_dark_holo</item>
     <item name="drawable/dialer_recent_card_bg">@drawable/com_android_dialer_dialer_recent_card_bg</item>
@@ -98,6 +98,7 @@
     <item name="drawable/list_background_holo">@drawable/com_android_contacts_list_background_holo</item>
     <item name="drawable/list_focused_holo">@drawable/com_android_contacts_list_focused_holo</item>
     <item name="drawable/list_longpressed_holo_light">@drawable/com_android_contacts_list_longpressed_holo_light</item>
+    <item name="drawable/list_pressed_holo_dark">@drawable/com_android_contacts_list_pressed_holo_dark</item>
     <item name="drawable/list_pressed_holo_light">@drawable/com_android_contacts_list_pressed_holo_light</item>
     <item name="drawable/list_section_divider_holo_custom">@drawable/com_android_contacts_list_section_divider_holo_custom</item>
     <item name="drawable/list_title_holo">@drawable/com_android_contacts_list_title_holo</item>
