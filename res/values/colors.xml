@@ -8,6 +8,13 @@
     <drawable name="sampletheme_background">#ff2e2e2e</drawable>
     <drawable name="sampletheme_background_light">#ff444444</drawable>
 
+    <drawable name="framework_res_screen_background_light">#ffffffff</drawable>
+    <drawable name="framework_res_screen_background_dark">#ff000000</drawable>
+    <drawable name="framework_res_notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="framework_res_notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="framework_res_notification_item_background_color">#ff111111</drawable>
+    <drawable name="framework_res_notification_item_background_color_pressed">#ff454545</drawable>
+
     <color name="com_andrew_apollo_transparent_black">#80000000</color>
     <color name="com_andrew_apollo_list_item_background">#99000000</color>
     <color name="com_andrew_apollo_action_bar">#40000000</color>

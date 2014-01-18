@@ -20,5 +20,4 @@
     <item name="mipmap/ic_launcher_camera">@mipmap/com_android_camera2_ic_launcher_camera</item>
     <item name="drawable/grid_pressed">@drawable/com_android_gallery3d_grid_pressed</item>
     <item name="drawable/grid_selected">@drawable/com_android_gallery3d_grid_selected</item>
-    <item name="drawable/thumb_selected">@drawable/com_android_gallery3d_thumb_selected</item>
 </resource-redirections>
