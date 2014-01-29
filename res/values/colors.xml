@@ -149,14 +149,29 @@
     <color name="com_android_phone_phone_settings_background_color">#f5f5f5</color>
     <color name="com_android_phone_phone_settings_actionbar_color">#e6e6e6</color>
 
-
+    <!--SystemUI-->
     <color name="com_android_systemui_batterymeter_frame_color">#66FFFFFF</color><!-- 40% white -->
     <color name="com_android_systemui_batterymeter_charge_color">#FFFFFFFF</color>
     <color name="com_android_systemui_batterymeter_bolt_color">#B2000000</color><!-- 70% black -->
     <color name="com_android_systemui_batterymeter_critical">#FFFF3300</color>
     <color name="com_android_systemui_batterymeter_low">#FFFF3300</color>
     <color name="com_android_systemui_batterymeter_full">#FFFFFFFF</color>
+    <color name="com_android_systemui_notification_list_shadow_top">#80000000</color>
+    <color name="com_android_systemui_notification_panel_scrim_color">#B0000000</color>
+    <color name="com_android_systemui_notification_panel_solid_background">#ff000000</color>
     <color name="com_android_systemui_status_bar_clock_color">#FFFFFFFF</color>
+    <color name="com_android_systemui_status_bar_recents_app_label_color">#ffffffff</color>
+    <color name="com_android_systemui_system_bar_background_opaque">#ff000000</color>
+    <color name="com_android_systemui_system_bar_background_semi_transparent">#66000000</color> <!-- 40% black -->
+
+    <drawable name="com_android_systemui_heads_up_notification_bg_pressed">#ff33B5E5</drawable>
+    <drawable name="com_android_systemui_notification_item_background_legacy_color">#ffaaaaaa</drawable>
+    <drawable name="com_android_systemui_notification_header_bg">#FF000000</drawable>
+    <drawable name="com_android_systemui_recents_callout_line">#99ffffff</drawable>
+    <drawable name="com_android_systemui_status_bar_notification_row_background_color">#ff090909</drawable>
+    <drawable name="com_android_systemui_status_bar_recents_app_thumbnail_background">#88000000</drawable>
+    <drawable name="com_android_systemui_system_bar_background">@color/com_android_systemui_system_bar_background_opaque</drawable>
+
 
     <!--DocumentsUI-->
     <color name="com_android_documentsui_chip">#ddd</color>
