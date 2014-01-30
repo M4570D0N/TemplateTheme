@@ -25,7 +25,7 @@
     <!-- Secondary text color in the Phone app -->
     <color name="com_android_dialer_dialtacts_primary_text_color">#000000</color>
     <color name="com_android_dialer_dialtacts_secondary_text_color">#888888</color>
-    <color name="com_android_dialer_dialpad_text_color">#000000</color>
+    <color name="com_android_dialer_dialpad_text_color">#404040</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
     <color name="com_android_dialer_call_log_missed_call_highlight_color">#FF0000</color>
@@ -43,15 +43,15 @@
     <!-- Background color of dialer list items (contacts, call log entries) -->
     <color name="com_android_dialer_background_dialer_list_items">#eeeeee</color>
     <!-- Background color where keypad digits are displayed -->
-    <color name="com_android_dialer_background_digits_dialpad">#ffffffff</color>
+    <color name="com_android_dialer_background_digits_dialpad">#f2ffffff</color>
     <!-- Background color of new dialpad -->
-    <color name="com_android_dialer_background_dialpad">#ffffffff</color>
+    <color name="com_android_dialer_background_dialpad">#faeeeeee</color>
     <!-- Primary color of dialpad text, including the call button -->
-    <color name="com_android_dialer_dialpad_primary_text_color">#000000</color>
-    <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
-    <color name="com_android_dialer_dialpad_call_button_color">#888888</color>
+    <color name="com_android_dialer_dialpad_primary_text_color">#404040</color>
     <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
-    <color name="com_android_dialer_dialpad_secondary_text_color">#444444</color>
+    <color name="com_android_dialer_dialpad_secondary_text_color">#888888</color>
+    <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
+    <color name="com_android_dialer_dialpad_call_button_color">#404040</color>
     <!-- Background color of action bars -->
     <color name="com_android_dialer_actionbar_background_color">#ffffff</color>
     <!-- Color of the 1dp divider that separates favorites -->
@@ -179,8 +179,8 @@
     <color name="com_android_documentsui_item_root_focused">#66cccccc</color>
     <color name="com_android_documentsui_drawer_background">#fff</color>
     <color name="com_android_documentsui_grid_item_background">#fff</color>
-    <color name="com_android_documentsui_title_background">#ddd</color>
-    <color name="com_android_documentsui_save_background">#ccc</color>
+    <color name="com_android_documentsui_title_background">#ccc</color>
+    <color name="com_android_documentsui_save_background">#ddd</color>
 
 </resources>
 
